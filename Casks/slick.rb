@@ -1,9 +1,9 @@
 cask "slick" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.0.134"
-  sha256 arm:   "60d7f2a50130ff6cb28bc78a1ceddccf980ba02565d84c3c5d3e6c40a07e5b1f",
-         intel: "139dfdeb7d4d7d2dce826f71549a6efb9c3cf97e6d703dd1273412bbc3584e3e"
+  version "2.0.135"
+  sha256 arm:   "028f4010cf000d5d9318260a90e390b93f5e5ecc9a40653403e89e381bd49e84",
+         intel: "0956eaa751fb8203f7d5badfb2063df77d0db989eb987765a240415d3260de47"
 
   url "https://github.com/3kh0/slick/releases/download/v#{version.split(".").last}/Slick-#{version}-mac-#{arch}.zip"
   name "Slick"
